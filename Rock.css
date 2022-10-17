@@ -1,0 +1,128 @@
+html,body{
+    position: fixed;
+    right: 0;left: 0;top: 0;bottom: 0;
+    background: linear-gradient(to right, rgb(0, 179, 255), rgb(255, 0, 0));
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Silkscreen';
+    height: 10px;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+img{
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}
+#your-title{
+    position: relative;
+    bottom: -350px;
+    left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgb(242, 243, 246);
+    text-align: left;
+    position: relative;left: 1200px;bottom:-500px;
+}
+#opponent-title{
+    position: relative;
+    bottom: -480px;left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 10px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgb(247, 248, 249);
+    text-align: left;
+  
+}
+#opponent-score{
+    position: relative;
+    bottom: -500px;
+    left: 170px;
+    border: 1px;
+    font-size: 20px;
+    color: aliceblue;
+}
+#your-score{
+    position: relative;
+    bottom: -210px;
+    border: 1px;
+    left: 1270px;
+    font-size: 20px;
+    color: aliceblue;
+}
+#opponent-choice {
+    width: 240px;
+    height: 240px;
+    margin-top: 10px;
+    cursor: no-drop;
+    float: left;
+    border-radius: 8px;
+    max-width: fit-content;
+    height: auto;
+    position: relative;left: 80px;top: -40px;
+}
+
+#your-choice{
+    width: 240px;
+    height: 270px;
+    margin-top: 10px; 
+    cursor: no-drop;
+    float: right;
+    border-radius: 8px;
+    max-width: fit-content;
+    height: auto;
+    position: relative;right: 100px;top: -57px;
+}
+
+#choices {
+    width: 240px;
+    height: 80px;
+    /* background-color: green; */
+    margin: 0 auto;
+    margin-top: 10px;
+    cursor: pointer;
+    position: relative;top: 400px;left: -50px;
+    align-items: center;
+    display: flex;
+}
+.choices{
+    padding: 50px;
+    background-color: linear-gradient(to right, rgb(0, 179, 255), rgb(255, 0, 0));
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.choices:hover{
+    transform: scale(1.5);
+}
+#choices img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    position: relative;
+    top: -100px;
+    border: 2px dashed #000;
+}
+
+footer{
+    position: relative;
+    top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    position: fixed;left: 420px ;top: 150px;
+    font-size: 5px;
+    padding-top: 200px;
+    color: beige;
+}
